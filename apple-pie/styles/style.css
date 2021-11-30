@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-size: cover;
+    height: 820px;
+}
+
+header h2 {
+	position: relative;
+  top: 23rem;
+  left: 30rem;
+  font-size: 4em;
+	color: white;
+}
+
+#info {
+	margin: 30px 250px;
+}
+
+#info p {
+	font-size: 1.2em;
+  text-align: justify;
+}
+
+#info img {
+	position: relative;
+  left: 11rem;
+  height: 55px;
+}
+
+hr {
+	margin: 10px 250px;
+}
+
+h3 {
+	font-size: 1.3em;
+}
+
+#ingredients {
+	list-style: url(/apple-pie/images/cutlery.svg) inside;
+  margin: 30px 250px;
+}
+
+
+
+#ingredients img {
+	position: relative;
+	left: 13rem;
+	height: 65px;
+	margin-top: 20px;
+}
+
+#directions {
+	margin: 30px 250px 50px;
+}
+
+#directions li, #ingredients li {
+	margin-bottom: 15px;
+}
+
